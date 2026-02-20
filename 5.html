@@ -64,31 +64,9 @@
 <script type="application/ld+json">
     {
         "@context": "https://schema.org", //ресурс schema.org
-        "@graph": 
-        [ //сразу несколько типов
-            {//тип 1
-              "@type": "WebPage", //описание что за сайт
-              "name": "Unix",
-              "description": "Про Unix системы",
-              "url": "https://resultup.agency/blog"
-            },
-            {
-                "@type": "FAQPage", //тип faq страницы
-                "mainEntity": [ //главные события
-                    {
-                        "@type": "Question", //тип вопрос ответ
-                        "name": "Про Unix системы",
-                        "acceptedAnswer": 
-                        { //решенный ответ
-                            "@type": "Answer", //тип ответа
-                            "text": "Узнать про Unix системы"
-                        }
-                    }
-                ]
-            },
-            {
-                "@type": "BreadcrumbList", //тип хлебные крошки
-                "itemListElement": [ //событие списка
+            "@type": "BreadcrumbList", //тип хлебные крошки
+            "itemListElement": 
+            [ //событие списка
                 {
                     "@type": "ListItem", //элемент списка
                     "position": 1, //нумерация позиций
@@ -119,7 +97,15 @@
                     "name": "Сообщество", //название
                     "item": "https://seo-fawn.vercel.app/3.html" //ссылка
                 }
-                ]
+            ],
+           
+        "@graph": 
+        [ //сразу несколько типов
+            {//тип 1
+              "@type": "WebPage", //описание что за сайт
+              "name": "Unix",
+              "description": "Про Unix системы",
+              "url": "https://resultup.agency/blog"
             },
             {
             	"@type": "Organization",
@@ -135,9 +121,9 @@
             "email": "support@apple.com"
             }
         ]
+        
     }
 </script>
-
 </head>
 <body>
             <!-- Анимированный фон -->
