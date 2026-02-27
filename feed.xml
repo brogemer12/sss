@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>Linux Universe</title>
+        <link>https://sss-snowy-five.vercel.app/index.html</link>
+        <description>Linux Universe | Полное руководство</description>
+        <language>ru</language>
+        <lastBuildDate>Fri, 27 Feb 2026 9:20:00 +0300</lastBuildDate>
+
+        <item>
+            <title>Что такое линукс</title>
+            <link>https://sss-snowy-five.vercel.app/index.html</link>
+            <description>Про линукс</description>
+            <pubDate>Fri, 27 Feb 2026 9:20:00 +0300</pubDate>
+            <guid>https://sss-snowy-five.vercel.app/index.html</guid>
+        </item>
+
+    </channel>
+</rss>
